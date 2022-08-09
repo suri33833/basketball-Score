@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+  
+}
+.mainHead{
+  background-color: maroon;
+  height: 50vh;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  color:rgb(190, 161, 161);
+  border: 4px solid rgb(14, 14, 59);
+  background-color: rgb(34, 34, 116);
+}
+.score{
+  display: flex;
+  justify-content: space-around;
+  font-size:40px;
+}
+#guestScore,#homeScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid ;
+    background-color: yellow;
+    width: 150px;
+}
+img{
+  height: 120px;
+  margin-top: 40px;
+  
+}
+.increment{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  background-color: red;
+  color: rgb(1, 40, 1);
+  border: 2px solid rgb(45, 44, 44);
+  padding: 4px;
+
+}
+.forGap{
+  margin: 35px;
+}
